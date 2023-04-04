@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: "vazir";
+}
+body {
+    font-family: "vazir";
+}
+.ul_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+
+}
+/*-------MAIN-------*/
+.main_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("font/Vazirmatn-Regular.woff2");
+    font-weight: normal;
+    display: swap;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="keywords" content="grid,layout,responsive,detail,flex,float,heading">
+    <meta name="description" content="website layout">
+    <meta name="author" content="nastaran">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template3</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="top_header">
+        <div class="header">
+            <nav class="navbar">
+                <ul class="ul_header">
+                    <li class="li_nav1">
+                        <a class="nav_link" href="#لوگو" title="جدید">
+                            <span class="span_svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 512 512">
+                                    <path fill="white"
+                                        d="M261.56 101.28a8 8 0 0 0-11.06 0L66.4 277.15a8 8 0 0 0-2.47 5.79L63.9 448a32 32 0 0 0 32 32H192a16 16 0 0 0 16-16V328a8 8 0 0 1 8-8h80a8 8 0 0 1 8 8v136a16 16 0 0 0 16 16h96.06a32 32 0 0 0 32-32V282.94a8 8 0 0 0-2.47-5.79Z" />
+                                    <path fill="white"
+                                        d="m490.91 244.15l-74.8-71.56V64a16 16 0 0 0-16-16h-48a16 16 0 0 0-16 16v32l-57.92-55.38C272.77 35.14 264.71 32 256 32c-8.68 0-16.72 3.14-22.14 8.63l-212.7 203.5c-6.22 6-7 15.87-1.34 22.37A16 16 0 0 0 43 267.56L250.5 69.28a8 8 0 0 1 11.06 0l207.52 198.28a16 16 0 0 0 22.59-.44c6.14-6.36 5.63-16.86-.76-22.97Z" />
+                                </svg>
+                            </span>
+                            لوگو
+                        </a>                                                                                                                                                                    
+                    </li>
+                    <li class="li_nav">
+                        <a class="nav_link" href="#لوگو" title="جدید">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 24 24">
+                                    <path fill="white"
+                                        d="M12 20q.45 0 .863-.05q.412-.05.837-.15L12.5 18H9v-1q0-.825.588-1.412Q10.175 15 11 15h2v-3h-2q-.425 0-.712-.288Q10 11.425 10 11V9h-.45q-.65 0-1.1-.438Q8 8.125 8 7.475q0-.225.062-.45q.063-.225.188-.425L9.8 4.325Q7.275 5.05 5.638 7.15Q4 9.25 4 12h1v-1q0-.425.287-.713Q5.575 10 6 10h2q.425 0 .713.287Q9 10.575 9 11v1q0 .425-.287.712Q8.425 13 8 13v1q0 .825-.588 1.412Q6.825 16 6 16h-.925q1.05 1.8 2.875 2.9Q9.775 20 12 20Zm7.6-5.55q.2-.575.3-1.188q.1-.612.1-1.262q0-2.8-1.7-4.938Q16.6 4.925 14 4.25V7q.825 0 1.413.587Q16 8.175 16 9v2q.475 0 .85.113q.375.112.725.462ZM12 22q-2.075 0-3.9-.788q-1.825-.787-3.175-2.137q-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175q1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138q1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175q-1.35 1.35-3.175 2.137Q14.075 22 12 22Z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="li_nav">
+                        <a class="nav_link" href="#لوگو" title="جدید">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 1280 1536">
+                                    <path fill="white"
+                                        d="M1280 1271q0 109-62.5 187t-150.5 78H213q-88 0-150.5-78T0 1271q0-85 8.5-160.5t31.5-152t58.5-131t94-89T327 704q131 128 313 128t313-128q76 0 134.5 34.5t94 89t58.5 131t31.5 152t8.5 160.5zm-256-887q0 159-112.5 271.5T640 768T368.5 655.5T256 384t112.5-271.5T640 0t271.5 112.5T1024 384z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="li_nav">
+                        <a class="nav_link" href="#لوگو" title="جدید">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 512 512">
+                                    <path fill="white"
+                                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="li_nav3">
+                        <a class="nav_link" href="#لوگو" title="جدید">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path fill="white"
+                                        d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6l2 2m-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2" />
+                                </svg>
+                            </span>
+                        </a>
+                        <ul class="dropdown ul_header">
+                            <li>
+                                <a class="content" href="#">
+                                یک درخواست دوستی جدید
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content" href="#">
+                                یک درخواست دوستی جدید
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content" href="#">
+                                یک درخواست دوستی جدید
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <g fill="none">
+                                    <path fill="white"
+                                        d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5h16Zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3h16Zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3h16Z" />
+                                </g>
+                            </svg>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--MAIN-->
+    <main class="main_wrapper">
+        <div class="parent_div">
+            <!--BOX1-->
+            <div class="box1">
+                <div class="first_div">
+                    <div class="div_box1">
+                        <div class="div_gallery">
+                            <a class="link_firstbox" href="https://www.w3schools.com/" title="متن">
+                                <h1 class="heading-firstbox">
+                                    پروفایل من
+                                </h1>
+                            </a>
+                            <div class="div_img1">
+                                <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                    <img class="first_img" src="css/img/avatar3.png" alt="عکس پروفایل" width="15" height="17">
+                                </a>
+                            </div>
+                            <p class="p_firstbox">
+                                <span class="parent_span">
+                                    <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 512 512">
+                                        <path fill="#607d8b"
+                                            d="m290.74 93.24l128.02 128.02l-277.99 277.99l-114.14 12.6C11.35 513.54-1.56 500.62.14 485.34l12.7-114.22l277.9-277.88zm207.2-19.06l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55l128.02 128.02l56.55-56.55c18.75-18.76 18.75-49.16 0-67.91z" />
+                                    </svg>
+                                </span>
+                                <span>
+                                    طراح، رابط کاربری
+                                </span>
+                            </p>
+                            <p class="p2_firstbox">
+                                <span class="parent_span">
+                                    <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 512 512">
+                                        <path fill="#607d8b"
+                                            d="M261.56 101.28a8 8 0 0 0-11.06 0L66.4 277.15a8 8 0 0 0-2.47 5.79L63.9 448a32 32 0 0 0 32 32H192a16 16 0 0 0 16-16V328a8 8 0 0 1 8-8h80a8 8 0 0 1 8 8v136a16 16 0 0 0 16 16h96.06a32 32 0 0 0 32-32V282.94a8 8 0 0 0-2.47-5.79Z" />
+                                        <path fill="#607d8b"
+                                            d="m490.91 244.15l-74.8-71.56V64a16 16 0 0 0-16-16h-48a16 16 0 0 0-16 16v32l-57.92-55.38C272.77 35.14 264.71 32 256 32c-8.68 0-16.72 3.14-22.14 8.63l-212.7 203.5c-6.22 6-7 15.87-1.34 22.37A16 16 0 0 0 43 267.56L250.5 69.28a8 8 0 0 1 11.06 0l207.52 198.28a16 16 0 0 0 22.59-.44c6.14-6.36 5.63-16.86-.76-22.97Z" />
+                                    </svg>
+                                </span>
+                                <span>
+                                    لندن، انگلستان
+                                </span>
+                            </p>
+                            <p class="p3_firstbox">
+                                <span class="parent_span">
+                                    <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 448 512">
+                                        <path fill="#607d8b"
+                                            d="M448 384c-28.02 0-31.26-32-74.5-32c-43.43 0-46.825 32-74.75 32c-27.695 0-31.454-32-74.75-32c-42.842 0-47.218 32-74.5 32c-28.148 0-31.202-32-74.75-32c-43.547 0-46.653 32-74.75 32v-80c0-26.5 21.5-48 48-48h16V112h64v144h64V112h64v144h64V112h64v144h16c26.5 0 48 21.5 48 48v80zm0 128H0v-96c43.356 0 46.767-32 74.75-32c27.951 0 31.253 32 74.75 32c42.843 0 47.217-32 74.5-32c28.148 0 31.201 32 74.75 32c43.357 0 46.767-32 74.75-32c27.488 0 31.252 32 74.5 32v96zM96 96c-17.75 0-32-14.25-32-32c0-31 32-23 32-64c12 0 32 29.5 32 56s-14.25 40-32 40zm128 0c-17.75 0-32-14.25-32-32c0-31 32-23 32-64c12 0 32 29.5 32 56s-14.25 40-32 40zm128 0c-17.75 0-32-14.25-32-32c0-31 32-23 32-64c12 0 32 29.5 32 56s-14.25 40-32 40z" />
+                                    </svg>
+                                </span>
+                                <span>
+                                    1 آوریل 1988
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="div_box2">
+                        <ul class="ul_list">
+                            <li class="li_list">
+                                <p class="p_box2">
+                                    <span class="parent_span">
+                                        <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 1728 1728">
+                                            <path fill="white"
+                                                d="M1728 864q0 176-68.5 336t-184 275.5t-275.5 184t-336 68.5t-336-68.5t-275.5-184t-184-275.5T0 864q0-213 97-398.5T362 160T736 9v228q-221 45-366.5 221T224 864q0 130 51 248.5t136.5 204t204 136.5t248.5 51t248.5-51t204-136.5t136.5-204t51-248.5q0-230-145.5-406T992 237V9q206 31 374 151t265 305.5t97 398.5z" />
+                                        </svg>
+                                    </span>
+                                    <a class="inside_link" title="عنوان" href="https://www.w3schools.com/">
+                                        <span>
+                                            لودینگ
+                                        </span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="li_list">
+                                <p class="p2_box2">
+                                    <span class="parent_span">
+                                        <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                            <path fill="white"
+                                                d="M19 19H5V8h14m0-5h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-2.47 8.06L15.47 10l-4.88 4.88l-2.12-2.12l-1.06 1.06L10.59 17l5.94-5.94Z" />
+                                        </svg>
+                                    </span>
+                                    <a class="inside_link" title="عنوان" href="https://www.w3schools.com/">
+                                        <span>
+                                            برنامه من
+                                        </span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="li_list">
+                                <p  class="p3_box2">
+                                    <span  class="parent_span">
+                                        <svg class="svg_first" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 36 36">
+                                            <path fill="white"
+                                                d="M12 16.14h-.87a8.67 8.67 0 0 0-6.43 2.52l-.24.28v8.28h4.08v-4.7l.55-.62l.25-.29a11 11 0 0 1 4.71-2.86A6.59 6.59 0 0 1 12 16.14Z"
+                                                class="clr-i-solid clr-i-solid-path-1" />
+                                            <path fill="white"
+                                                d="M31.34 18.63a8.67 8.67 0 0 0-6.43-2.52a10.47 10.47 0 0 0-1.09.06a6.59 6.59 0 0 1-2 2.45a10.91 10.91 0 0 1 5 3l.25.28l.54.62v4.71h3.94v-8.32Z"
+                                                class="clr-i-solid clr-i-solid-path-2" />
+                                            <path fill="white" d="M11.1 14.19h.31a6.45 6.45 0 0 1 3.11-6.29a4.09 4.09 0 1 0-3.42 6.33Z"
+                                                class="clr-i-solid clr-i-solid-path-3" />
+                                            <path fill="white"
+                                                d="M24.43 13.44a6.54 6.54 0 0 1 0 .69a4.09 4.09 0 0 0 .58.05h.19A4.09 4.09 0 1 0 21.47 8a6.53 6.53 0 0 1 2.96 5.44Z"
+                                                class="clr-i-solid clr-i-solid-path-4" />
+                                            <circle cx="17.87" cy="13.45" r="4.47" fill="white" class="clr-i-solid clr-i-solid-path-5" />
+                                            <path fill="white"
+                                                d="M18.11 20.3A9.69 9.69 0 0 0 11 23l-.25.28v6.33a1.57 1.57 0 0 0 1.6 1.54h11.49a1.57 1.57 0 0 0 1.6-1.54V23.3l-.24-.3a9.58 9.58 0 0 0-7.09-2.7Z"
+                                                class="clr-i-solid clr-i-solid-path-6" />
+                                            <!-- <path fill="none" d="M0 0h36v36H0z" /> -->
+                                        </svg>
+                                    </span>
+                                    <a class="inside_link" title="عنوان" href="https://www.w3schools.com/">
+                                        <span>
+                                        تقویم من
+                                        </span>
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="div_box3">
+                        <div>
+                            <a class="link_firstbox" href="https://www.w3schools.com/" title="متن">
+                                <h2 class="h4_box3">
+                                    منافع
+                                </h2>
+                            </a>
+                        </div>
+                        <div>
+                            <span class="span1">جدید</span>
+                            <span class="span2">اخبار</span>
+                            <span class="span3">مدرسه</span>
+                            <span class="span4">مهم</span>
+                            <span class="span5">جهانی</span>
+                            <span class="span6">مدرسه</span>
+                            <span class="span7">نقاشی</span>
+                            <span class="span8">بازی</span>
+                            <span class="span9">دوست</span>
+                            <span class="span10">عکس</span>
+                            <span class="span11">بازدید</span>
+                        </div>
+                    </div>
+                    <div class="div_box4">
+                        <div class="div4 clearfix">
+                            <span class="span_box4">
+                                جدید!
+                            </span>
+                            <span class="span1_box4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 24 24">
+                                    <path fill="black"
+                                        d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="p_box4">
+                            مردم به نمایه شما نگاه می کنند.
+                            دریابید که چه کسی.
+                            پیگیری پزشک مهم است
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--BOX2-->
+            <div class="box2">
+                <div class="second_div">
+                    <div class="div_box5">
+                        <div>
+                            <h5 class="h5_box5">
+                                قالب رسانه های اجتماعی توسط w3.css
+                            </h5>
+                            <p class="p_box5">
+                                وضعیت: احساس آبی
+                            </p>
+                            <button class="button_box5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="m14 6l2.293-2.293a1 1 0 0 1 1.414 0l2.586 2.586a1 1 0 0 1 0 1.414L18 10m-4-4l-9.707 9.707a1 1 0 0 0-.293.707V19a1 1 0 0 0 1 1h2.586a1 1 0 0 0 .707-.293L18 10m-4-4l4 4" />
+                                </svg>
+                                ثبت
+                            </button>
+                        </div>
+                    </div>
+                    <div class="div_box6">
+                        <div class="box6 clearfix">
+                            <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                <img class="inside_img" src="css/img/avatar2.png" alt="عکس" width="60" height="100">
+                            </a>
+                            <span class="span_box6">
+                                1 دقیقه
+                            </span>
+                            <p class="p_box6">
+                                جان دو
+                            </p>
+                        </div>
+                        <p class="p1_box6">
+                            مراقبت از خود درد مهم است و رشد بیمار را به دنبال دارد،
+                            اما در عین حال این اتفاق می افتد که کار و درد زیاد است. برای
+                            رسیدن به کوچکترین جزئیات، هیچ کس نباید هیچ نوع کاری را تمرین کند
+                            مگر اینکه از آن بهره ای ببرد.
+                        </p>
+                        <div class="gallery_box6 clearfix">
+                            <span>
+                                <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                    <img class="img_box6" src="css/img/lights.jpg" alt="شب" width="50" height="100">
+                                </a>
+                            </span>
+                            <span>
+                                <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                    <img class="img2_box6" src="css/img/nature.jpg" alt="کوه" width="50" height="100">
+                                </a>
+                            </span>
+                            <span>
+                                <button class="button_box6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 27 24">
+                                        <g transform="translate(27 0) scale(-1 1)">
+                                            <path fill="white"
+                                                d="M1.547 24a.33.33 0 0 1-.327-.295v-.001L0 11.336l-.001-.031c0-.182.147-.329.329-.329h8.233v13.025zm3.36-3.265v.001a1.301 1.301 0 1 0 1.301-1.301h-.002c-.719 0-1.301.582-1.302 1.301zm.48-8c0 .181.147.328.329.328h.764a.328.328 0 0 0 0-.656h-.77a.329.329 0 0 0-.329.329v.003zm-3.61 0c0 .181.147.328.328.328H4.61a.328.328 0 0 0 0-.656H2.099a.328.328 0 0 0-.328.328v.003zm9.8 9.388a1.886 1.886 0 0 1-.494-.253l.006.004l-.1-.063a20.97 20.97 0 0 1-.69-.452l-.101-.071c-.132-.095-.194-.137-.262-.133c-.24.005-.48.007-.72.01V12.01l-.013-.77c.451-.287.867-.56.992-.664c.17-.342.338-.628.524-.902l-.017.027c.085-.133.17-.265.248-.396l1.724-2.894c.08-.136.167-.272.254-.408c.145-.216.299-.474.44-.74l.024-.049a.879.879 0 0 0 .079-.521l.001.005l-.006-3.12c.063-.454.319-.838.68-1.072l.006-.004a1.97 1.97 0 0 1 1.162-.5h.007l.063-.001c.341 0 .663.081.949.224l-.012-.006c.191.092.354.19.507.3l-.01-.007l.106.07c.241.127.421.341.501.6l.002.007c.187.696.358 1.329.517 1.964l.066.259c.101.34.188.751.244 1.172l.005.042c-.171 1.574-.5 3.01-.976 4.378l.042-.138l7.693-.011h.028a1.643 1.643 0 0 1 1.63 1.848l.001-.008a1.982 1.982 0 0 1-.894 1.781l-.008.005a2.171 2.171 0 0 1 .372 1.4v-.007a1.848 1.848 0 0 1-1.137 1.873l-.012.004a2.375 2.375 0 0 1 .299 1.31v-.006a1.905 1.905 0 0 1-.886 1.733l-.008.005a2.791 2.791 0 0 1 .224 1.459l.001-.013v.188a1.834 1.834 0 0 1-2.007 1.719l.007.001h-4.429l-.015.001l-.016-.001h.001h-5.91c-.051 0-.104 0-.16.008c-.068.004-.14.01-.214.01h-.015a1.13 1.13 0 0 1-.299-.04l.008.002zm-6.015-1.387a.64.64 0 1 1 1.281.001a.64.64 0 0 1-1.281-.001z" />
+                                        </g>
+                                    </svg>
+                                    لایک
+                                </button>
+                            </span>
+                            <span>
+                                <button class="button1_box6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 512 512">
+                                        <g transform="translate(512 0) scale(-1 1)">
+                                            <path fill="white"
+                                                d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.8 3.4-17.4l.3-.3c.3-.3.7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z" />
+                                        </g>
+                                    </svg>
+                                    کامنت
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="div_box7">
+                        <div class="box7 circle">
+                            <span>
+                                <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                    <img class="inside_img" src="css/img/avatar5.png" alt="عکس" width="50" height="100">
+                                </a>
+                            </span>
+                            <span class="span_box6">
+                                1 دقیقه
+                            </span>
+                            <p class="p_box7">
+                                جان دو
+                            </p>
+                            <p class="p4_firstbox">
+                                مراقبت از خود درد مهم است و رشد بیمار را به دنبال دارد،
+                                اما در عین حال این اتفاق می افتد که کار و درد زیاد است. برای
+                                رسیدن به کوچکترین جزئیات، هیچ کس نباید هیچ نوع کاری را تمرین کند،
+                                مگر اینکه از آن بهره ای ببرد.
+                            </p>
+                        </div>
+                        <span>
+                            <button class="button_box7">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 27 24">
+                                    <g transform="translate(27 0) scale(-1 1)">
+                                        <path fill="white"
+                                            d="M1.547 24a.33.33 0 0 1-.327-.295v-.001L0 11.336l-.001-.031c0-.182.147-.329.329-.329h8.233v13.025zm3.36-3.265v.001a1.301 1.301 0 1 0 1.301-1.301h-.002c-.719 0-1.301.582-1.302 1.301zm.48-8c0 .181.147.328.329.328h.764a.328.328 0 0 0 0-.656h-.77a.329.329 0 0 0-.329.329v.003zm-3.61 0c0 .181.147.328.328.328H4.61a.328.328 0 0 0 0-.656H2.099a.328.328 0 0 0-.328.328v.003zm9.8 9.388a1.886 1.886 0 0 1-.494-.253l.006.004l-.1-.063a20.97 20.97 0 0 1-.69-.452l-.101-.071c-.132-.095-.194-.137-.262-.133c-.24.005-.48.007-.72.01V12.01l-.013-.77c.451-.287.867-.56.992-.664c.17-.342.338-.628.524-.902l-.017.027c.085-.133.17-.265.248-.396l1.724-2.894c.08-.136.167-.272.254-.408c.145-.216.299-.474.44-.74l.024-.049a.879.879 0 0 0 .079-.521l.001.005l-.006-3.12c.063-.454.319-.838.68-1.072l.006-.004a1.97 1.97 0 0 1 1.162-.5h.007l.063-.001c.341 0 .663.081.949.224l-.012-.006c.191.092.354.19.507.3l-.01-.007l.106.07c.241.127.421.341.501.6l.002.007c.187.696.358 1.329.517 1.964l.066.259c.101.34.188.751.244 1.172l.005.042c-.171 1.574-.5 3.01-.976 4.378l.042-.138l7.693-.011h.028a1.643 1.643 0 0 1 1.63 1.848l.001-.008a1.982 1.982 0 0 1-.894 1.781l-.008.005a2.171 2.171 0 0 1 .372 1.4v-.007a1.848 1.848 0 0 1-1.137 1.873l-.012.004a2.375 2.375 0 0 1 .299 1.31v-.006a1.905 1.905 0 0 1-.886 1.733l-.008.005a2.791 2.791 0 0 1 .224 1.459l.001-.013v.188a1.834 1.834 0 0 1-2.007 1.719l.007.001h-4.429l-.015.001l-.016-.001h.001h-5.91c-.051 0-.104 0-.16.008c-.068.004-.14.01-.214.01h-.015a1.13 1.13 0 0 1-.299-.04l.008.002zm-6.015-1.387a.64.64 0 1 1 1.281.001a.64.64 0 0 1-1.281-.001z" />
+                                    </g>
+                                </svg>
+                                لایک
+                            </button>
+                        </span>
+                        <span>
+                            <button class="inside_button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 512 512">
+                                    <g transform="translate(512 0) scale(-1 1)">
+                                        <path fill="white"
+                                            d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.8 3.4-17.4l.3-.3c.3-.3.7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z" />
+                                    </g>
+                                </svg>
+                                کامنت
+                            </button>
+                        </span>
+                    </div>
+                    <div class="div_box8">
+                        <div class="box8">
+                            <div class="inside_div">
+                                <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                    <img class="img_box8" src="css/img/avatar6.png" alt="عکس" width="60" height="100">
+                                </a>
+                                <span class="span_box8">
+                                    1 دقیقه
+                                </span>
+                                <p class="p_box8">
+                                    آنجی جین
+                                </p>
+                            </div>
+                            <p class="p2_box8">
+                                آیا شما این را دیده اید؟
+                            </p>
+                            <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                <img class="img2_box8" src="css/img/nature.jpg" alt="عکس" width="100" height="100">
+                            </a>
+                            <p class="p3_box8">
+                                مراقبت از خود درد مهم است و رشد بیمار را به دنبال دارد،
+                                اما در عین حال این اتفاق می افتد که کار و درد زیاد است. برای
+                                رسیدن به کوچکترین جزئیات، هیچ کس نباید هیچ نوع کاری را تمرین کند
+                                ، مگر اینکه از آن بهره ای ببرد.
+                            </p>
+                            <span>
+                                <button class="button_box7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 27 24">
+                                        <g transform="translate(27 0) scale(-1 1)">
+                                            <path fill="white"
+                                                d="M1.547 24a.33.33 0 0 1-.327-.295v-.001L0 11.336l-.001-.031c0-.182.147-.329.329-.329h8.233v13.025zm3.36-3.265v.001a1.301 1.301 0 1 0 1.301-1.301h-.002c-.719 0-1.301.582-1.302 1.301zm.48-8c0 .181.147.328.329.328h.764a.328.328 0 0 0 0-.656h-.77a.329.329 0 0 0-.329.329v.003zm-3.61 0c0 .181.147.328.328.328H4.61a.328.328 0 0 0 0-.656H2.099a.328.328 0 0 0-.328.328v.003zm9.8 9.388a1.886 1.886 0 0 1-.494-.253l.006.004l-.1-.063a20.97 20.97 0 0 1-.69-.452l-.101-.071c-.132-.095-.194-.137-.262-.133c-.24.005-.48.007-.72.01V12.01l-.013-.77c.451-.287.867-.56.992-.664c.17-.342.338-.628.524-.902l-.017.027c.085-.133.17-.265.248-.396l1.724-2.894c.08-.136.167-.272.254-.408c.145-.216.299-.474.44-.74l.024-.049a.879.879 0 0 0 .079-.521l.001.005l-.006-3.12c.063-.454.319-.838.68-1.072l.006-.004a1.97 1.97 0 0 1 1.162-.5h.007l.063-.001c.341 0 .663.081.949.224l-.012-.006c.191.092.354.19.507.3l-.01-.007l.106.07c.241.127.421.341.501.6l.002.007c.187.696.358 1.329.517 1.964l.066.259c.101.34.188.751.244 1.172l.005.042c-.171 1.574-.5 3.01-.976 4.378l.042-.138l7.693-.011h.028a1.643 1.643 0 0 1 1.63 1.848l.001-.008a1.982 1.982 0 0 1-.894 1.781l-.008.005a2.171 2.171 0 0 1 .372 1.4v-.007a1.848 1.848 0 0 1-1.137 1.873l-.012.004a2.375 2.375 0 0 1 .299 1.31v-.006a1.905 1.905 0 0 1-.886 1.733l-.008.005a2.791 2.791 0 0 1 .224 1.459l.001-.013v.188a1.834 1.834 0 0 1-2.007 1.719l.007.001h-4.429l-.015.001l-.016-.001h.001h-5.91c-.051 0-.104 0-.16.008c-.068.004-.14.01-.214.01h-.015a1.13 1.13 0 0 1-.299-.04l.008.002zm-6.015-1.387a.64.64 0 1 1 1.281.001a.64.64 0 0 1-1.281-.001z" />
+                                        </g>
+                                    </svg>
+                                    لایک
+                                </button>
+                            </span>
+                            <span>
+                                <button class="inside_button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 512 512">
+                                        <g transform="translate(512 0) scale(-1 1)">
+                                            <path fill="white"
+                                                d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.8 3.4-17.4l.3-.3c.3-.3.7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z" />
+                                        </g>
+                                    </svg>
+                                    کامنت
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--BOX3-->
+            <div class="box3">
+                <div class="third_div">
+                    <div class="div_box9">
+                        <div class="box9">
+                            <a class="link_firstbox" href="https://www.w3schools.com/" title="متن">
+                                <p class="p_box9">
+                                    رویدادهای آینده:
+                                </p>
+                            </a>
+                            <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                <img class="box_img" src="css/img/forest.jpg" alt="عکس" width="50" height="100">
+                            </a>
+                            <p class="p2_box9">
+                                تعطیلات
+                            </p>
+                            <p class="inside_p">
+                                جمعه ساعت 15:00
+                            </p>
+                            <button class="button_box9">
+                                اطلاعات
+                            </button>
+                        </div>
+                    </div>
+                    <div class="div_box10">
+                        <div class="box10">
+                            <a class="link_firstbox" href="https://www.w3schools.com/" title="متن">
+                                <h4 class="p_box10">
+                                    درخواست دوستی
+                                </h4>
+                            </a>
+                            <a class="inside_link" href="https://www.w3schools.com/" title="عکس">
+                                <img class="img_box10" src="css/img/avatar6.png" alt="عکس" width="50" height="100">
+                            </a>
+                            <p class="p1_box10">
+                                جان دو
+                            </p>
+                            <span>
+                                <button class="button_box10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 24 24">
+                                        <path fill="white" d="m10 16.4l-4-4L7.4 11l2.6 2.6L16.6 7L18 8.4Z" />
+                                    </svg>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="button2_box10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 24 24">
+                                        <path fill="white"
+                                            d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z" />
+                                    </svg>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="div_box11">
+                        <div>
+                            <p class="p_box11">
+                                باکس
+                            </p>
+                        </div>
+                    </div>
+                    <div class="div_box12">
+                        <div>
+                            <p class="p_box12">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512">
+                                    <g transform="translate(512 0) scale(-1 1)">
+                                        <path fill="black"
+                                            d="M463.55 272.13H400v-48.2q0-4.32-.27-8.47c29.57-27.88 32.25-64.63 32.27-103c0-8.61-6.64-16-15.25-16.41A16 16 0 0 0 400 112c0 28-1.86 48.15-9.9 63.84c-19.22-41.15-65.78-63.91-134.1-63.91c-39.8 0-74.19 9.13-99.43 26.39c-14.9 10.19-26.2 22.91-33.7 37.72C114 160.65 112 141 112 112.46c0-8.61-6.6-16-15.2-16.44A16 16 0 0 0 80 112c0 37.63 2.61 73.73 32.44 101.63q-.43 5.06-.44 10.3v48.2H48.45c-8.61 0-16 6.62-16.43 15.23a16 16 0 0 0 16 16.77h64V320a143.32 143.32 0 0 0 10.39 53.69C96.74 396.64 80.18 422 80 463.34c0 8.74 6.62 16.3 15.36 16.65A16 16 0 0 0 112 464c0-27.66 9.1-44.71 26.17-61.32A144.37 144.37 0 0 0 220 459.42a16 16 0 0 0 20-15.49V192.45c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 272 192v251.93a16 16 0 0 0 20 15.49a144.4 144.4 0 0 0 81.82-56.74c17 16.54 26.09 33.52 26.17 60.95a16.27 16.27 0 0 0 15.1 16.37A16 16 0 0 0 432 464c0-41.68-16.6-67.23-42.39-90.31A143.32 143.32 0 0 0 400 320v-15.87h64a16 16 0 0 0 16-16.77c-.42-8.61-7.84-15.23-16.45-15.23Z" />
+                                        <path fill="black"
+                                            d="m321.39 104l.32.09c13.57 3.8 25.07-10.55 18.2-22.85A95.86 95.86 0 0 0 256.21 32h-.42a95.87 95.87 0 0 0-84.19 50.13c-6.84 12.58 5.14 27 18.84 22.86c19.71-6 41.79-9.06 65.56-9.06c24.09 0 46.09 2.72 65.39 8.07Z" />
+                                    </g>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <footer class="botom_footer">
+        <h3 class="p_footer">
+            فوتر
+        </h3>
+        <p class="p2_footer">
+            پشتیبانی شده توسط
+            <a class="link_footer" href="https://www.w3schools.com/" title="https://www.w3schools.com/">
+                w3.css
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
